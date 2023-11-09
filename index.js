@@ -7,13 +7,13 @@ var image2;
 
 randomNumber1 = Math.floor(Math.random() * 6) + 1;
 randomImagePath1 = "./images/dice" + randomNumber1 + ".png";
-image1 = document.querySelectorAll("img")[1];
+image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src", randomImagePath1);
 
 
 randomNumber2 = Math.floor(Math.random() * 6) + 1;
 randomImagePath2 = "./images/dice" + randomNumber2 + ".png";
-image2 = document.querySelectorAll("img")[2];
+image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomImagePath2);
 
 if (randomNumber1 > randomNumber2)
