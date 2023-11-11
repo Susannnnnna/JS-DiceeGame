@@ -18,9 +18,9 @@ image2.setAttribute("src", randomImagePath2);
 
 if (randomNumber1 > randomNumber2)
 {
-    document.querySelector("h1").innerHTML = "Player 1 Win!";
+    document.querySelector("p").innerHTML = "Player 1 Win!";
 } else if (randomNumber1 < randomNumber2) {
-    document.querySelector("h1").innerHTML = "Player 2 Win!";
+    document.querySelector("p").innerHTML = "Player 2 Win!";
 } else {
-    document.querySelector("h1").innerHTML = "Dead-heat...";
+    document.querySelector("p").innerHTML = "Dead-heat...";
 };
