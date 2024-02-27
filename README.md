@@ -23,7 +23,7 @@ Refresh github page for this project to throw the dice.
 ### Run the app
 Download files from github
 ```
-git clone https://github.com/Susannnnnna/JS_DiceeGame
+git clone https://github.com/Susannnnnna/JS-DiceeGame
 ```
 
 To run locally this project open it in visual studio code or any other text editor.
